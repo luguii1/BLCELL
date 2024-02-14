@@ -1,0 +1,12 @@
+
+barras
+<i class="fa-solid fa-bars"></i>
+
+seta
+<i class="fa-solid fa-arrow-right"></i>
+
+whatsapp
+<i class="fa-brands fa-square-whatsapp"></i>
+
+instagram
+<i class="fa-brands fa-square-instagram"></i>

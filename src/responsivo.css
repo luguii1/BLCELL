@@ -1,0 +1,260 @@
+@media (max-width: 1390px) {
+    .cabecalho {
+        padding: 20px 80px;
+    }
+    .hero {
+        padding: 0 80px;
+    }
+    main {
+        padding: 0 80px;
+    }
+    footer {
+        padding: 0 80px;
+    }
+    #contato {
+        padding: 0 80px;
+    }
+    .textos h1 {
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width: 1175px) {
+    #imagem-visualizacao {
+        width: 550px;
+    }
+}
+@media (max-width: 1024px) {
+    .produtinho {
+        flex-direction: column-reverse;
+        padding: 0 80px;
+        align-items: center;
+        gap: 50px;
+    }
+    .produto-iphone {
+        gap: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-family: Outfit;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .produto-iphone .comprar {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .produto-iphone .comprar button {
+        width: 100%;
+        padding: 20px 0;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        background-color: #000;
+        color: white;
+        font-family: outfit;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+    
+    .selecao-cores {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .cores {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .armazenamento {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .selecao-armazenamento {
+        width: 100%;
+    }
+    .selecao-armazenamento label {
+        width: 100%;
+    }
+    
+    #imagem-vizualizacao {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1055px) {
+    .descricao {
+        padding: 0px;
+    }
+    .descricao h2 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-size: 17px;
+    }
+    
+    .descricao p {
+        font-size: 17px;
+        width: 70%;
+        color: #00000098;
+    }
+    
+}
+@media (max-width: 830px) {
+    .img-hero img {
+        width: 300px;
+    }
+    .img-hero {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bola img {
+        width: 300px;
+    }
+
+    .hero {
+        align-items: center;
+        flex-direction: column-reverse;
+        height: 700px;
+
+    }
+
+    .textos {
+        align-items: center;
+        width: 100%;
+        
+    }
+    .textos .btn-produtos {
+        width: 100%;
+    }
+    .textos h1 {
+        text-align: center;
+    }
+    .bola {
+        top: 79px;
+    }
+}
+
+@media (max-width: 690px) {
+    .cabecalho {
+        padding: 20px 20px;
+        flex-direction: row;
+    }
+    .hero {
+        padding: 0 20px;
+    }
+    main {
+        padding: 0 20px;
+    }
+    footer {
+        padding: 0 20px;
+    }
+    #contato {
+        padding: 0;
+    }
+    .textos h1 {
+        font-size: 50px;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .espaco {
+        display: block;
+    }
+    .barras {
+        display: block;
+    }
+    main .produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+    #contato .local {
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .local .endereco {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+    .mobile-menu.ativo {
+        
+        transform: translateX(0);
+    }
+    .mapa {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        
+    }
+    .logo-nav {
+        align-items: center;
+        gap: 10px;
+
+        & ul {
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+    .redes-sociais {
+        align-items: center;
+        gap: 10px;
+        
+    }
+    
+}
+@media (max-width: 555px) {
+    #imagem-visualizacao {
+        width: 350px;
+    }
+    #titulo {
+        font-size: 20px;
+    }
+    .produtinho {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .textos h1 {
+        font-size: 35px;
+    }
+    .redes-sociais p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .redes-sociais p{
+        font-size: 12px;
+    }
+    #imagem-visualizacao {
+        width: 320px;
+    }
+}

@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transition: all .3s;
+}
+
+.barras {
+    display: none;
+}
+
+.cabecalho {
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 a {
+    font-family: Smooch Sans;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 50px;
+    font-family: Outfit;
+}
+
+.nav-menu ul li .login {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.nav-menu ul li .login:hover {
+    border: none;
+}
+
+.nav-menu ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    transition: none;
+}
+
+.nav-menu ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+.mobile-menu {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 79px;
+    transform: translateX(-100%);
+    z-index: 99;
+    left: 0;
+    font-size: 20px;
+    font-family: Outfit;
+    display: none;
+}
+.mobile-menu ul li .login  {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-menu ul li {
+    margin-top: 20px;
+}
+
+.mobile-menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.produtinho {
+    padding: 0 100px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.produto-iphone {
+    gap: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: Outfit;
+    justify-content: center;
+}
+
+.produto-iphone .comprar {
+    width: 50%;
+    margin-top: 10px;
+
+}
+
+.produto-iphone .comprar button {
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    font-family: outfit;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.selecao-cores {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cores {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cores h2,
+.armazenamento h2 {
+    font-weight: 500;
+}
+
+.produto-iphone h1 {
+    letter-spacing: 2px;
+}
+
+.selecao-cores input {
+    display: none;
+}
+
+.selecao-cores li label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 2.625rem;
+    width: 2.625rem;
+}
+
+.selecao-cores input[type='radio']:hover+label {
+    border-radius: 50%;
+    border: 0.125rem solid #b3b3b388;
+}
+
+.selecao-cores input[type='radio']:checked+label {
+    border-radius: 50%;
+    border: 0.125rem solid #0066cc;
+}
+
+.selecao-cores label img {
+    width: 2rem;
+    mix-blend-mode: color;
+}
+
+.selecao-armazenamento label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.875rem 0 0;
+    border: 0.00625rem solid #797979;
+    border-radius: 0.625rem;
+    cursor: pointer;
+}
+
+.selecao-armazenamento input {
+    display: none;
+}
+
+.selecao-armazenamento input[type='radio']:checked+label {
+    border: 0.125rem solid #0066cc;
+}
+
+
+#imagem-visualizacao {
+    width: 620px;
+}
+
+.selecionar-imagem {
+    display: flex;
+    justify-content: center;
+    & li {
+      padding: 0 1rem 0 0;
+      & input {
+        display: none;
+      }
+      & label > img {
+        width: 2.875rem;
+        padding: 0.25rem;
+        padding-bottom: 0.5rem;
+        cursor: pointer;
+        border-bottom: 0.125rem solid hsla(0, 0%, 100%, 0);
+        &:hover {
+          border-color: #e8e8ed;
+        }
+      }
+      & input[type='radio']:checked + label > img {
+        border-color: #d2d2d6;
+      }
+    }
+  }
+#contato {
+    padding: 0 100px;
+    margin-top: 150px;
+    background-color: #ACE6FF;
+}
+
+.local {
+    display: flex;
+    justify-content: space-between;
+}
+
+.local .endereco h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.local .endereco a {
+    color: blue;
+}
+
+.endereco p i {
+    font-size: 20px;
+}
+
+.local .endereco {
+    letter-spacing: 2px;
+    background-color: #ACE6FF;
+    width: 50%;
+    align-items: start;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: Outfit;
+}
+
+.mapa {
+    width: 50%;
+}
+
+footer {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+.logo-nav {
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.logo-nav h1 {
+    font-family: Smooch Sans;
+    letter-spacing: 2px;
+    cursor: default;
+    color: white;
+}
+
+.nav-footer ul {
+    display: flex;
+    gap: 50px;
+    font-family: Outfit;
+}
+
+.nav-footer ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.redes-sociais {
+    width: 50%;
+    font-family: Outfit;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 50px;
+}
+
+.redes-sociais p {
+    letter-spacing: 2px;
+}
+
+.redes-sociais i {
+    font-size: 20px;
+}
+
+
+#name {
+    display: none;
+}
+
+

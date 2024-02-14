@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Smooch+Sans:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/responsivo.css">
+    <script src="src/script.js" defer></script>
+    <title>BLCELL</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="barras">
+            <i id="barrinhas" class="fa-solid fa-bars"></i>
+        </div>
+        <div class="logo">
+            <h1><a href="index.html">BLCELL</a></h1>
+        </div>
+        <div class="espaco"></div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li id="logando"><a class="login" href="src/login.html">Entrar</a></li>
+                <p id="name"></p>
+            </ul>
+        </nav>
+        
+        
+    </header>
+    <section id="hero" class="hero">
+        <div class="bola">
+            <img src="Imagens/Ellipse 1.png" alt="Meio circulo">
+        </div>
+        <nav class="mobile-menu">
+            <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a class="login" href="src/login.html">Entrar</a></li>
+            </ul>
+        </nav>
+        <aside class="textos">
+            <h1>Eletrônicos com alta qualidade</h1>
+            <a class="btn-produtos" href="#produtos">Ver produtos</a>
+        </aside>
+        <figure class="img-hero">
+            <img src="Imagens/fone-hero.png" alt="Fone de ouvido">
+        </figure>
+    </section>
+    <main id="produtos">
+        <div class="produtos">
+            <div class="headset">
+                <img src="Imagens/fone-produto.png" alt="Fone de ouvido">
+                <div class="descricao">
+                    <h2>fones de ouvido</h2>
+                    <p>fones de ouvido com alta performace</p>
+                    <a onclick="indisponivel()" class="btn-comprar" href="">Comprar</a>
+                </div>
+            </div>
+
+            <div class="iphone">
+                <img src="Imagens/iphone-12.png" alt="Iphone 12 pro max">
+                <div class="descricao">
+                    <h2>iphone 15 pro max</h2>
+                    <p>Iphone 15 pro max com várias cores</p>
+                    <a class="btn-comprar" href="src/iphone.html">Comprar</a>
+                </div>
+            </div>
+
+            <div class="computador">
+                <img src="Imagens/gabinete-gamer.png" alt="Gabinete gamer">
+                <div class="descricao">
+                    <h2>computadores</h2>
+                    <p>Computadores para diversas finalidades</p>
+                    <a onclick="indisponivel()" class="btn-comprar" href="">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="contato">
+        <div class="local">
+            <aside class="endereco">
+                <h2>Conheça nossa loja fisica:</h2>
+                <p>Endereço:</p>
+                <address>
+                    Rua das Flores,  123<br> Bairro Primavera Cidade dos Sonhos, <br> Estado das Maravilhas <br> CEP:
+                    12345-678
+                </address>
+                <p><i class="fa-brands fa-square-whatsapp"></i> (99) 91234-5678</p>
+                <a href="#">Ver no Maps <i class="fa-solid fa-arrow-right"></i></a>
+            </aside>
+            <img class="mapa" src="Imagens/maps.jpg" alt="Foto de um mapa">
+        </div>
+    </section>
+
+    <footer>
+        <div class="logo-nav">
+            <h1>BLCELL</h1>
+            <nav class="nav-footer">
+                <ul>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="redes-sociais">
+            <p><i class="fa-brands fa-square-whatsapp"></i> (99) 91234-5678</p>
+            <p><i class="fa-brands fa-square-instagram"></i> @BLCELL</p>
+        </div>
+    </footer>
+</body>
+
+</html>
